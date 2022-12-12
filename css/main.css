@@ -1,4 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    height: ;
+    width: ;
+    background-color: white;
+
+}
+.hat ul {
+    list-style: none;
+    float: right;
+    margin-top: 27px;
+    margin-right: 60px;
+}
+li {
+    float: left;
+    width: ;
+    height: ;
 }
