@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body  {
+    font-family: 'Heebo';
 }
 .wrapper {
     height: ;
@@ -9,14 +13,24 @@
     background-color: white;
 
 }
+/* Шапка */
+.first {
+    overflow: hidden;
+}
 .hat ul {
     list-style: none;
     float: right;
-    margin-top: 27px;
-    margin-right: 60px;
+    margin: 27px 60px 27px 0;
+
 }
-li {
+.hat li {
     float: left;
-    width: ;
-    height: ;
+    margin-left: 32px;
+}
+.hat a {
+color: #000;
+text-decoration: none;
+font-size: 20px;
+font-weight: 500;
+
 }
