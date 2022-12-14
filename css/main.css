@@ -78,3 +78,33 @@ box-shadow: -6px 6px 0px #edf7fa;
     border: none;
     cursor: pointer;
 }
+/* Posty*/
+.posts {
+    background-color: #EDF7FA;
+    margin-top: 72px;
+    margin-bottom: 28px;
+}
+.posts_header {
+overflow: hidden;
+}
+.posts_title {
+    float: left;
+}
+.posts_header a {
+float: right;
+font-size: 16px;
+text-decoration: none;
+color: #00A8CC;
+}
+.posts .wrapper {
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+.postes_cards {
+    overflow: hidden;
+}
+.postes_card {
+    width: calc(50% - 10px);
+    float: left;
+    margin-right: 20px;
+}
