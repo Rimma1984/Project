@@ -6,14 +6,19 @@
 }
 body  {
     font-family: 'Heebo';
+    color: #21243D;
 }
 .wrapper {
-    height: ;
-    width: ;
-    background-color: white;
+    margin: 0 auto;
+    width: 856px;
+    overflow: hidden;
 
 }
 /* Шапка */
+.author {
+    margin-top: 128px;
+    margin-bottom: 72px;
+}
 .first {
     overflow: hidden;
 }
@@ -32,5 +37,44 @@ color: #000;
 text-decoration: none;
 font-size: 20px;
 font-weight: 500;
+}
+/* Меню */
 
+.author_info {
+float: left;
+width: calc(100% - 243px);
+padding-right: 115px;
+}
+.author_avatar {
+    float: right;
+    width: 243px;
+}
+.author_avatar img {
+width: 100%;
+border-radius: 50%;
+box-shadow: -6px 6px 0px #edf7fa;
+}
+.author_titel {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 136%;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+.author_text {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+/* кнопка */
+.buttom {
+    color: #fff;
+    background-color: #ff6464;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
