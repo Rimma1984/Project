@@ -86,9 +86,11 @@ box-shadow: -6px 6px 0px #edf7fa;
 }
 .posts_header {
 overflow: hidden;
+margin-bottom: 16px;
 }
 .posts_title {
     float: left;
+    font-size: 22px;
 }
 .posts_header a {
 float: right;
@@ -100,11 +102,50 @@ color: #00A8CC;
     padding-top: 20px;
     padding-bottom: 32px;
 }
-.postes_cards {
+.posts_cards {
     overflow: hidden;
 }
-.postes_card {
+.posts_card {
     width: calc(50% - 10px);
     float: left;
     margin-right: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 24px;
 }
+.posts_card:last-child {
+    margin-right: 0;
+}
+.posts_card-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.posts_date,
+.posts_tags {
+    float: left;
+    font-size: 18px;
+}
+.clearfix {
+    clear: both;
+}
+.posts_tags {
+    margin-left: 32px;
+}
+.posts_date {
+    border-right: 1px solid black;
+    padding-right: 32px;
+}
+.posts_card-info {
+    margin-top: 26px;
+}
+.posts_card-text {
+    margin-top: 20px;
+}
+/* .dashboard {
+    height: 180px;
+    width: 838px;
+}
+.works {
+    width: ;
+} */
